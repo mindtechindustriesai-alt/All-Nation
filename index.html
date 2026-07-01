@@ -410,7 +410,7 @@
                     <p style="color: var(--secondary); font-family: var(--font-mono); font-size: 0.8rem;">Co-Founder & Executive Director</p>
                     <p style="margin-top: 15px;">Community development practitioner with 25+ years of experience in municipal project delivery, social welfare programs, and youth empowerment. Trusted voice in Mayfield community structures.</p>
                     <div style="margin-top: 15px;">
-                        <a href="tel:0688129759" style="color: var(--secondary); text-decoration: none;"><i class="fas fa-phone"></i> 068 812 9759</a>
+                        <a href="tel:0688129759" style="color: var(--secondary); text-decoration: none;"><i class="fas fa-phone"></i> 068 812 9759</a> | <a href="https://wa.me/27783817501?text=Hello%20Elsie%20from%20All%20Nation" style="color: #25D366; text-decoration: none;"><i class="fab fa-whatsapp"></i> WhatsApp</a>
                     </div>
                 </div>
                 <div class="glass-card director-card gold-glow">
@@ -419,7 +419,8 @@
                     <p style="color: var(--secondary); font-family: var(--font-mono); font-size: 0.8rem;">Co-Founder & Operations Director</p>
                     <p style="margin-top: 15px;">Operations specialist with deep roots in Mayfield. Known for practical project execution, community mobilization, and building bridges between residents and government structures.</p>
                     <div style="margin-top: 15px;">
-                        <a href="tel:0784889829" style="color: var(--secondary); text-decoration: none;"><i class="fas fa-phone"></i> 078 488 9829</a>
+                        <a href="tel:0784889829" style="color: var(--secondary); text-decoration: none;"><i class="fas fa-phone"></i> 078 488 9829</a> / <a href="tel:0656226337" style="color: var(--secondary); text-decoration: none;">065 622 6337</a><br>
+                        <a href="https://wa.me/27884889829?text=Hello%20Msawenkosi%20from%20All%20Nation" style="color: #25D366; text-decoration: none;"><i class="fab fa-whatsapp"></i> WhatsApp</a>
                     </div>
                 </div>
             </div>
@@ -533,6 +534,7 @@
                             <div>
                                 <strong>Phone</strong><br>
                                 <a href="tel:0784889829">078 488 9829</a> (Msawenkosi)<br>
+                                <a href="tel:0656226337">065 622 6337</a> (Msawenkosi Alt)<br>
                                 <a href="tel:0688129759">068 812 9759</a> (Elsie)
                             </div>
                         </div>
@@ -541,21 +543,21 @@
                             <div>
                                 <strong>WhatsApp</strong><br>
                                 <a href="https://wa.me/27884889829?text=Hello%20All%20Nation%2C%20I%20would%20like%20to%20enquire%20about%20your%20services" target="_blank">078 488 9829</a> (Msawenkosi)<br>
-                                <a href="https://wa.me/27688129759?text=Hello%20All%20Nation%2C%20I%20would%20like%20to%20enquire%20about%20your%20services" target="_blank">068 812 9759</a> (Elsie)
+                                <a href="https://wa.me/27783817501?text=Hello%20All%20Nation%2C%20I%20would%20like%20to%20enquire%20about%20your%20services" target="_blank">078 381 7501</a> (Elsie)
                             </div>
                         </div>
                         <div class="contact-item">
                             <i class="fas fa-envelope"></i>
                             <div>
                                 <strong>Email</strong><br>
-                                <a href="mailto:mindtech.industriesai@gmail.com">mindtech.industriesai@gmail.com</a>
+                                <a href="mailto:collenmamabolo2002@gmail.com">collenmamabolo2002@gmail.com</a>
                             </div>
                         </div>
                         <div style="margin-top: 20px; display: flex; gap: 15px; flex-wrap: wrap;">
                             <a href="https://wa.me/27884889829?text=Hello%20All%20Nation%2C%20I%20would%20like%20to%20enquire%20about%20your%20services" target="_blank" class="btn-primary btn-whatsapp" style="flex: 1; text-align: center;">
                                 <i class="fab fa-whatsapp"></i> WhatsApp Msawenkosi
                             </a>
-                            <a href="https://wa.me/27688129759?text=Hello%20All%20Nation%2C%20I%20would%20like%20to%20enquire%20about%20your%20services" target="_blank" class="btn-primary btn-whatsapp" style="flex: 1; text-align: center;">
+                            <a href="https://wa.me/27783817501?text=Hello%20All%20Nation%2C%20I%20would%20like%20to%20enquire%20about%20your%20services" target="_blank" class="btn-primary btn-whatsapp" style="flex: 1; text-align: center;">
                                 <i class="fab fa-whatsapp"></i> WhatsApp Elsie
                             </a>
                         </div>
@@ -687,13 +689,13 @@
         Sent from All Nation Website
         `;
             
-            // Send to MindTech email using mailto
-            const mailtoLink = `mailto:mindtech.industriesai@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
+            // Send to new email address
+            const mailtoLink = `mailto:collenmamabolo2002@gmail.com?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`;
             
             // Try opening mail client
-            const result = window.open(mailtoLink, '_blank');
+            window.open(mailtoLink, '_blank');
             
-            // If mailto fails or user wants to copy, show success
+            // Show success message
             document.getElementById('enquiryForm').style.display = 'none';
             document.getElementById('formSuccess').style.display = 'block';
             
@@ -726,9 +728,10 @@
             console.log('🚀 All Nation Website Loaded');
             console.log('   📍 9009 Kome Street, Mayfield Ext. 1');
             console.log('   📞 078 488 9829 (Msawenkosi)');
+            console.log('   📞 065 622 6337 (Msawenkosi Alt)');
             console.log('   📞 068 812 9759 (Elsie)');
-            console.log('   📧 mindtech.industriesai@gmail.com');
-            console.log('   💚 WhatsApp: 078 488 9829 & 068 812 9759');
+            console.log('   💚 WhatsApp: 078 488 9829 & 078 381 7501');
+            console.log('   📧 collenmamabolo2002@gmail.com');
             console.log('   🏆 Building Tomorrow, Together');
         });
     </script>
